@@ -5,6 +5,7 @@ description: Customisable puzzle box
 categories: [Build]
 tags: [puzzle, website]
 featured_image: mpb_open.jpg
+image: mpb_open.jpg
 ---
 
 ![mpb open](/mpb_open.jpg)

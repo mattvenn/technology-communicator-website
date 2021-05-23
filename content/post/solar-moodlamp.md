@@ -5,6 +5,7 @@ date: 2013-01-01
 categories: [STEM Workshop]
 tags: [renewables, solar]
 featured_image: spin_painting.jpg
+image: spin_painting.jpg
 ---
 
 Children built solar powered moodlamps to take home, learning about electricity

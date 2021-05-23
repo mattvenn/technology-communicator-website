@@ -4,6 +4,7 @@ title: "Learn to design your own chips"
 date: 2021-03-10T11:36:30+01:00
 categories: [Course]
 featured_image: /matt_photo.jpg
+image: /matt_photo.jpg
 ---
 
 Almost exactly a year ago in March 2020 I started getting interested in Open Source ASIC tooling. I don't remember exactly what sparked my interest, but I remember this talk by Tim Edwards at WOSH: [Bootstrapping a real working design flow](https://www.youtube.com/watch?v=ztcAbszOBs8) and sometime after seeing [Adam Zeloof posting a picture of an ASIC implementation of pong](https://twitter.com/azzeloof/status/1180877525372882944).

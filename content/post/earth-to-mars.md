@@ -5,6 +5,7 @@ description: An exceptional learning experience - developed in collaboration wit
 categories: [STEM Workshop]
 tags: [robotics, STEM]
 featured_image: etm.jpg
+image: etm.jpg
 ---
 
 Students will develop their skills in all four STEM disciplines – programming robot ‘rovers’  and deploying them  to carry out real missions and take samples in a search for signs of life as they map a replica Martian landscape.

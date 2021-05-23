@@ -4,6 +4,7 @@ date: 2014-01-01
 categories: [STEM Workshop]
 tags: [hydrogen, STEM, competition]
 featured_image: hydrogenchallenge.jpg
+image: hydrogenchallenge.jpg
 description:  This workshop uses hydrogen to fuel a Lego car which participants will design and build. The cars that each team builds will have a race of efficiency – the car which travels the furthest on a fixed amount of fuel will win!
 ---
 

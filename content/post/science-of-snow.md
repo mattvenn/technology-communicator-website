@@ -5,6 +5,7 @@ date: 2010-01-01
 categories: [build, installation]
 tags: [snowflake, art]
 featured_image: snow2.png
+image: snow2.png
 ---
 
 Science of Snow is an interactive exhibit that starts by illustrating how snowflakes form and ends with a unique snowflake postcard to take away.

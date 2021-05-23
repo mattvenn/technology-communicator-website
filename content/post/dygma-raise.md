@@ -4,6 +4,7 @@ date: 2017-01-01
 description: An Ergonomic split keyboard
 categories: [Build]
 featured_image: dygma-header.jpg
+image: dygma-header.jpg
 ---
 
 joining dygma as CTO

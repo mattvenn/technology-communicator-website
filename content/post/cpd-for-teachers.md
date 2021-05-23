@@ -3,6 +3,7 @@ date: 2021-05-20T15:50:35+02:00
 description: "CPD for Teachers"
 title: "Training teachers to teach the UK computer science curriculum"
 featured_image: "hello_aerial.jpg"
+image: "hello_aerial.jpg"
 categories: [Course]
 ---
 
