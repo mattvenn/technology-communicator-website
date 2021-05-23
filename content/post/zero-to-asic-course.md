@@ -1,6 +1,6 @@
 ---
-title: "Zero to Asic Course"
-description: "Learn to design your own chips"
+description: "Zero to Asic Course"
+title: "Learn to design your own chips"
 date: 2021-03-10T11:36:30+01:00
 categories: [Course]
 featured_image: /matt_photo.jpg
