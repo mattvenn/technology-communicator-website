@@ -1,54 +1,117 @@
+######################## default configuration ####################
 baseURL = "https://mattvenn.net"
-languageCode = "en-us"
-title = "Matt Venn - Science & Technology Communication"
-theme = "creative"
-#theme = "ananke"
+title = "Matt Venn : Science Communication"
+theme = "gofolium"
+# post pagination
+paginate = "4"
+# post excerpt
+summaryLength = "10"
+# disable language
+disableLanguages = [] # desable language from here
+
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/particles/stats.min.js"
+[[params.plugins.js]]
+link = "plugins/reading-time/readingTime.min.js"
 
 
+############################## navigation ###############################
+
+# main menu
+[[menu.main]]
+name = "home"
+URL = "home"
+weight = 1
+
+[[menu.main]]
+name = "about"
+URL = "about"
+weight = 2
+
+
+[[menu.main]]
+name = "projects"
+URL = "projects"
+weight = 3
+
+[[menu.main]]
+name = "stem workshops"
+URL = "stem"
+weight = 4
+  
+  
+[[menu.main]]
+name = "contact"
+URL = "contact"
+weight = 5
+
+
+#################### default parameters ################################
 [params]
-  # Style options: default (pink), blue, green, pink, red, sea, violet
-  # Use custom.css for your custom styling
-  style = "blue"
-  description = ""
-  copyright = "&copy;2021 Matt Venn"
-  # Contact page
-     # Since this template is static, the contact form uses www.formspree.io as a
-     # proxy. The form makes a POST request to their servers to send the actual
-     # email. Visitors can send up to a 1000 emails each month for free.
-     #
-     # What you need to do for the setup?
-     #
-     # - set your email address under 'email' below
-     # - upload the generated site to your server
-     # - send a dummy email yourself to confirm your account
-     # - click the confirm link in the email from www.formspree.io
-     # - you're done. Happy mailing!
-  email = "matt@mattvenn.net"
+logo = "images/logo.png"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# Google Analitycs
+google_analitycs_id = "" # your id
 
-    # Optional Matomo analytics (formerly piwik)
-      # [params.analytics.matomo]
-      #  URL = "https://stats.example.com"
-      #  ID = "42"
-      #  # Track all subdomains with "*.example.com" (Optional)
-      #  domain = "www.example.com"
-      #  # Optional integrity check hash
-      #  hash = ""
+# body particles
+particles = true
 
-  # Nav links in the side bar
-  [[params.navlinks]]
-  name = "Home"
-  url = "post/"
-  home = true
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use jpg, png, svg or gif format.
 
-  [[params.navlinks]]
-  name = "About"
-  url = "about/"
+# Navigation button
+#[params.navigation_button]
+#enable = true
+#label = "contact"
+#link = "contact"
+  
+############################# social site ########################
 
-  [[params.navlinks]]
-  name = "Get in touch"
-  url = "contact"
+[[params.social]]
+title = "twitter"
+icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+link = "https://twitter.com/matthewvenn"
 
-  [params.social]
-  twitter       = "https://twitter.com/matthewvenn"
-  linkedin      = "https://www.linkedin.com/in/matt-venn/"
-  github        = "https://github.com/mattvenn"
+
+[[params.social]]
+title = "github"
+icon = "ti-github" # themify icon : https://themify.me/themify-icons
+link = "https://github.com/mattvenn"
+
+[[params.social]]
+title = "linkedin"
+icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+link = "https://www.linkedin.com/in/matt-venn/"
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+# copyright
+copyright = "Copyright &copy; 2021 Matt Venn"
+
+
