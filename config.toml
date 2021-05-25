@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://mattvenn.net"
+baseURL = "http://sci-com.mattvenn.net"
 title = "Matt Venn : Science Communication"
 theme = "gofolium"
 # post pagination
