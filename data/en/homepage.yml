@@ -4,6 +4,7 @@ banner:
   title :  "Matt Venn"
   subtitle : "Science & Technology communication"
   social : true
+  background : "/semicolons-bg.jpg"
   # social icons comes from `config.toml` file.
 
 
@@ -115,6 +116,9 @@ blog:
 
 
 ########################## Contact ############################
+contact_section:
+  background : "/plus-or-questions.jpg"
+
 # contact foem
 contact_form:
   enable : true
