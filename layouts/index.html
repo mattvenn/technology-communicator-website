@@ -144,7 +144,7 @@
 <!-- /talks -->
 
 {{ if $data.homepage.stem.enable }}
-<section class="section pb-0" id="stem">
+<section class="section pb-0 bg-holder" data-width="1024" data-height="768" id="stem">
   <div class="container">
     <div class="row">
       <div class="col-12 mb-5">
@@ -155,12 +155,17 @@
         {{ .Render "stem" }}
       </div>
       {{ end }}
-      <div class="col-12 text-center mt-5">
+      <div class="col-12 text-center mt-2 mb-3">
         <a href="{{ `stems` | absLangURL }}" class="btn btn-primary btn-style">{{ i18n "all_stems"}}</a>
       </div>
     </div>
   </div>
 </section>
+<style>
+  .bg-holder#stem {
+    background-image: url({{ $data.homepage.stem.background }});
+  }
+</style>
 {{ end }}
 
 <!-- projects -->
