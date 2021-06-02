@@ -4,7 +4,11 @@
 
 <!-- banner -->
 {{ if $data.homepage.banner.enable }}
-<section class="section pb-0 parallax filter-bg__black-05" id="home" style="background-image: url({{ $data.homepage.banner.background }})">
+<section class="section pb-0 parallax-header filter-bg__darken-{{ $data.homepage.contact.background.darken }}" id="home" 
+  style="background-image: url({{ $data.homepage.banner.background.path | absURL }})" 
+  data-width="{{ $data.homepage.banner.background.width }}" 
+  data-height="{{ $data.homepage.banner.background.height }}">
+
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -143,8 +147,11 @@
 {{ end }}
 <!-- /talks -->
 
-{{ if $data.homepage.stem.enable }}
-<section class="section pb-0 bg-holder" data-width="1024" data-height="768" id="stem">
+{{ if $data.homepage.stem.enable }} 
+<section id="stem"  class="section pb-0 parallax filter-bg__darken-{{ $data.homepage.contact.background.darken }}"
+  style="background-image: url({{ $data.homepage.stem.background.path | absURL }})"
+  data-width="{{ $data.homepage.stem.background.width }}" 
+  data-height="{{ $data.homepage.stem.background.height }}">
   <div class="container">
     <div class="row">
       <div class="col-12 mb-5">
@@ -161,11 +168,6 @@
     </div>
   </div>
 </section>
-<style>
-  .bg-holder#stem {
-    background-image: url({{ $data.homepage.stem.background }});
-  }
-</style>
 {{ end }}
 
 <!-- projects -->
@@ -214,7 +216,10 @@
 
 <!-- contact -->
 {{ if or $data.homepage.contact_form.enable $data.homepage.contact_info.enable}}
-<section class="section parallax filter-bg__black-06" id="contact" style="background-image: url({{ $data.homepage.contact_section.background }})">
+<section class="section parallax-footer filter-bg__darken-{{ $data.homepage.contact.background.darken }}" id="contact" 
+  data-width="{{ $data.homepage.contact.background.width }}" 
+  data-height="{{ $data.homepage.contact.background.height }}"
+  style="background-image: url({{ $data.homepage.contact.background.path | absURL }})">
   <div class="container">
     <div class="row">
       {{ if $data.homepage.contact_form.enable }}

@@ -1,3 +1,4 @@
+/** BUG FIXING **/
 .content img{
     width: 100%;
 }
@@ -6,30 +7,106 @@
     font-size: 14px;
 }
 
-.parallax {
-    /* The image used */
-    background-image: url("img_parallax.jpg");
-  
-    /* Set a specific height */
-    min-height: 500px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
+/** PARALLAX **/
 .parallax-not-wide{
     background-size: contain;
 }
 
-.bg-holder {
-    width: 100%;
+.parallax-single{
+    max-width: 1140px;
     height: 100%;
+    margin: auto;
+    min-height: 450px;
 }
 
-.filter-bg__black-05{
+.parallax {
+    max-width: 1140px;
+    height: 100%;
+    margin: auto;
+}
+
+.parallax-header {
+    height: 500px;
+    margin: auto;
+}
+
+.parallax-footer {
+    max-width: 1140px;
+    height: 100%;
+    margin: auto;
+}
+
+.filter-bg__darken-0{
+    position: relative;
+
+    &:before{
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba( 0, 0, 0, 0);
+        position: absolute;
+    }
+}
+
+.filter-bg__darken-1{
+    position: relative;
+
+    &:before{
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba( 0, 0, 0, 0.1);
+        position: absolute;
+    }
+}
+
+.filter-bg__darken-2{
+    position: relative;
+
+    &:before{
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba( 0, 0, 0, 0.2);
+        position: absolute;
+    }
+}
+
+.filter-bg__darken-3{
+    position: relative;
+
+    &:before{
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba( 0, 0, 0, 0.3);
+        position: absolute;
+    }
+}
+
+.filter-bg__darken-4{
+    position: relative;
+
+    &:before{
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba( 0, 0, 0, 0.4);
+        position: absolute;
+    }
+}
+
+.filter-bg__darken-5{
     position: relative;
 
     &:before{
@@ -43,7 +120,21 @@
     }
 }
 
-.filter-bg__black-06{
+.filter-bg__darken-6{
+    position: relative;
+
+    &:before{
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba( 0, 0, 0, 0.6);
+        position: absolute;
+    }
+}
+
+.filter-bg__darken-7{
     position: relative;
 
     &:before{
@@ -57,6 +148,49 @@
     }
 }
 
+.filter-bg__darken-8{
+    position: relative;
+
+    &:before{
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba( 0, 0, 0, 0.8);
+        position: absolute;
+    }
+}
+
+.filter-bg__darken-9{
+    position: relative;
+
+    &:before{
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba( 0, 0, 0, 0.9);
+        position: absolute;
+    }
+}
+
+.filter-bg__darken-10{
+    position: relative;
+
+    &:before{
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba( 0, 0, 0, 1);
+        position: absolute;
+    }
+}
+
+/** SECTIONS OFFSETS **/
 #project{
     margin-bottom: 40px;
 }

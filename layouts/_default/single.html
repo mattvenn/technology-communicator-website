@@ -6,7 +6,9 @@
       <article class="" data-file="{{.Permalink}}" data-target="article">
         <div class="text-center">
          {{ with .Params.Image }} 
-            <div class="mb-4 parallax parallax-not-wide" style="background-image: url({{ . | absURL }})"></div>
+            <div class="mb-4 parallax-single parallax-not-wide" style="background-image: url({{ . | absURL }})" 
+            data-width="1024" 
+            data-height="768"></div>
          <!-- <img src="{{ . | absURL }}" alt="" class="img-fluid mb-4">  -->
          {{ end }}
           <ul class="list-inline mb-3">
