@@ -7,20 +7,21 @@
     font-size: 14px;
 }
 
+/** STATIC PARALLAX **/
+.static-parallax {
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /** PARALLAX **/
 .parallax-not-wide{
     background-size: contain;
 }
 
-.parallax-single{
-    max-width: 1140px;
-    height: 100%;
-    margin: auto;
-    min-height: 450px;
-}
-
 .parallax {
-    max-width: 1140px;
     height: 100%;
     margin: auto;
 }

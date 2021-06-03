@@ -4,7 +4,7 @@
 
 <!-- banner -->
 {{ if $data.homepage.banner.enable }}
-<section class="section pb-0 parallax-header filter-bg__darken-{{ $data.homepage.contact.background.darken }}" id="home" 
+<section class="section pb-0 static-parallax filter-bg__darken-{{ $data.homepage.contact.background.darken }}" id="home" 
   style="background-image: url({{ $data.homepage.banner.background.path | absURL }})" 
   data-width="{{ $data.homepage.banner.background.width }}" 
   data-height="{{ $data.homepage.banner.background.height }}">
@@ -216,7 +216,7 @@
 
 <!-- contact -->
 {{ if or $data.homepage.contact_form.enable $data.homepage.contact_info.enable}}
-<section class="section parallax-footer filter-bg__darken-{{ $data.homepage.contact.background.darken }}" id="contact" 
+<section class="section static-parallax filter-bg__darken-{{ $data.homepage.contact.background.darken }}" id="contact" 
   data-width="{{ $data.homepage.contact.background.width }}" 
   data-height="{{ $data.homepage.contact.background.height }}"
   style="background-image: url({{ $data.homepage.contact.background.path | absURL }})">

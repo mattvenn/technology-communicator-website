@@ -5,6 +5,8 @@ title: "Training teachers to teach the UK computer science curriculum"
 featured_image: "hello_aerial.jpg"
 image: "hello_aerial.jpg"
 categories: [Course]
+banner_image: necklace_strung.jpg
+banner_image_darken: 4
 ---
 
 From September 2014, the UK required children from 5 to 16 years to be taught a computer science curriculum.

@@ -3,15 +3,12 @@
 <section class="section pt-0">
   <div class="container">
     <div class="row">
-      <article class="" data-file="{{.Permalink}}" data-target="article">
+      <article class="col-lg-8 col-md-10 mx-auto" data-file="{{.Permalink}}" data-target="article">
         <div class="text-center">
-         {{ with .Params.Image }} 
-            <div class="mb-4 parallax-single parallax-not-wide" style="background-image: url({{ . | absURL }})" 
-            data-width="1024" 
-            data-height="768"></div>
-         <!-- <img src="{{ . | absURL }}" alt="" class="img-fluid mb-4">  -->
-         {{ end }}
-          <ul class="list-inline mb-3">
+          {{ if not ( or ( eq .Type "projects" ) ( eq .Type "stems" ) ) }}
+            {{ with .Params.Image }} <img src="{{ . | absURL }}" alt="" class="img-fluid mb-4"> {{ end }}
+          {{ end }}
+          <ul class="list-inline mt-1 mb-3">
             <li class="list-inline-item"><i class="text-primary ti-calendar mr-2"></i>{{ .PublishDate.Format "06 Jan, 2006" }}</li>
             <li class="list-inline-item"><i class="text-primary ti-time mr-2"></i><span class="eta"></span> read</li>
             {{ if .Params.Author }}
@@ -28,7 +25,7 @@
           </ul>
           {{ end }}
         </div>
-        <div class="content mt-5 col-lg-8 col-md-10 mx-auto">
+        <div class="content mt-5">
           {{ .Content }}
         </div>
       </article>

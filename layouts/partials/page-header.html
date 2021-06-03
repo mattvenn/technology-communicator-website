@@ -1,0 +1,30 @@
+{{ if or ( eq .Type "projects" ) ( eq .Type "stems" ) }}
+
+    <section class="section pb-0 static-parallax filter-bg__darken-{{ .Params.banner_image_darken }}" id="home" 
+    {{ if .Params.banner_image }}
+        style="background-image: url({{ .Params.banner_image | absURL }})" 
+    {{ else }}
+        style="background-image: url({{ .Params.featured_image | absURL }})" 
+    {{ end }}
+    >
+
+    <div class="container">
+    <div class="row">
+        <div class="col-12">
+        {{ with . }}
+            <h1 class="display-1 font-weight-bold title mb-4">{{ .Title | markdownify }}</h1>
+        {{ end }}
+        </div>
+    </div>
+    </div>
+    </section>
+
+{{ else }}
+
+    <section class="section">
+    <div class="container text-left text-sm-center">
+        <h2>{{.Title}}</h2>
+    </div>
+    </section>
+
+{{ end }}
