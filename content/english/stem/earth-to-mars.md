@@ -17,10 +17,22 @@ and trial the missions, develop the mission control software, train the science
 communicators and help to faciliate the pilot and first set of workshops during
 British science week.
 
+To allow the robots to 'sample' various atmospheric conditions we built a Martian landscape
+with hundreds of embedded RFID tags. The robots were programmed to move about and take a sample
+by reading an RFID tag. 
+
+The mission control website was written in Python using the Flask framework. I worked with a 
+web designer to make it look nice and futuristic. After the students learnt to drive the robots 
+around and take samples, the mission control graphs of methane concentration, temperature and humidity
+slowly resolved until at the end of the workshop students could start make predictions about where
+life would most likely be found.
+
 One of the aspects I enjoy when running workshops is when the participants
 suprise me by pushing the boundaries of the workshop. An example of this was
 when one group of students, frustrated by not knowing how many points their team
 had contributed, used the website's API to download the samples, categorise them by team and then print a score table.
+
+![Earth to Mars badge](/etm_badge.png)
 
 ## Learning objectives
 
