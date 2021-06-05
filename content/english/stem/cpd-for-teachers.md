@@ -40,7 +40,7 @@ Over 3000 teachers participated. Average training rating was 4.9/5.
 
 ## References
 
-Matt developed 6 courses for us during the 2013 push for computer science to be taught in UK schools. His incorporation of innovative and fun activities worked well with both teachers and children. He delivered the courses to over 3000 teachers and was consistently the highest rated trainer we have worked with. I would highly recommend Matt as someone who can develop and deliver world class training materials.
+Matt developed 6 courses for us during the 2013 push for computer science to be taught in UK schools. His incorporation of innovative and fun activities worked well with both teachers and children. He delivered the courses to over 3000 teachers and was consistently one of the highest rated trainers we have worked with. I would highly recommend Matt as someone who can develop and deliver world class training materials.
 
 *Matt Thurling*  
 *CEO* CPD For Teachers
