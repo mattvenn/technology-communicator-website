@@ -5,7 +5,7 @@ banner:
   subtitle : "Science & Technology communication"
   social : true
   background:
-    path : "/gds_macro.jpg"
+    path : "/gds_photo_corner_caravel.jpg"
     width: 1600
     height: 900
     darken: 5
@@ -17,7 +17,7 @@ about:
   enable : true
   title : ""
   image : "matt_photo.jpg"
-  content : "Matthew Venn is a renowned science & technology communicator who has recently completed his own [Zero to ASIC journey](/stems/zero-to-asic-course/). 
+  content : "Matthew Venn is a science & technology communicator and electronic engineer. 
     He brings 20 years of engineering experience to create excellent and innovative learning experiences for people all over the world.
 
   "
