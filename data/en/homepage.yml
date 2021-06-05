@@ -5,7 +5,7 @@ banner:
   subtitle : "Science & Technology communication"
   social : true
   background:
-    path : "/semicolons-bg.jpg"
+    path : "/gds_macro.jpg"
     width: 1600
     height: 900
     darken: 5
@@ -17,28 +17,9 @@ about:
   enable : true
   title : ""
   image : "matt_photo.jpg"
-  content : "
-  About Matt
-  About Matt
-  About Matt
-  About Matt
-  About Matt
-  About Matt
-  About Matt
-  About Matt
-  About Matt
-  About Matt
-  About Matt
-  About Matt
-  About Matt
-  About Matt
-  About Matt
-  About Matt
-  About Matt
-  About Matt
-  About Matt
-  About Matt
-  About Matt
+  content : "Matthew Venn is a renowned science & technology communicator who has recently completed his own [Zero to ASIC journey](/stems/zero-to-asic-course/). 
+    He brings 20 years of engineering experience to create excellent and innovative learning experiences for people all over the world.
+
   "
 
 
@@ -78,11 +59,11 @@ expertise:
   expertise_item:
     # expertise item loop
     - name : "Design and delivery of STEM training and workshops"
-      content : "A deep understanding of technology and communication"
+      content : "A deep understanding of technology, years of teaching experience and a love of communication and group training."
 
     # expertise item loop
-    - name : "Open Source hardware development"
-      content : "Chip design, HDL, PCBs, firmware & software"
+    - name : "Open Source hardware and software development"
+      content : "From ASICs to FPGAs, board design, bring up & testing through to firmware, software, Linux and the internet."
 
 
 ####################### Publication ###########################
@@ -110,7 +91,7 @@ stem:
   enable : true
   title : "STEM workshops"
   background: 
-    path: "/stem-background.jpg"
+    path: "/hydrogenchallenge.jpg"
     width: 4256
     height: 2832
 
@@ -127,7 +108,7 @@ blog:
 contact:
   background: 
     darken: 6
-    path: "/plus-or-questions.jpg"
+    path: "/floppy_drawbot.jpg"
     width: 2000
     height: 1200
 
@@ -145,7 +126,7 @@ contact_form:
 contact_info:
   enable : true
   title : "Get In Touch"
-  content : "Let's talk about your project and how I can help you create and deliver incredible trainings and workshops."
+  content : "Let's talk about your needs and how I can help you create and deliver world class trainings and workshops."
   contact_item:
     # contact item loop
     - icon : "ti-email" # themify icon : https://themify.me/themify-icons
