@@ -25,3 +25,5 @@ I decided to build a development board that fulfilled the following spec:
 The project repository is here: https://github.com/mattvenn/basic-ecp5-pcb
 
 And it's a certified open hardware project: https://certification.oshwa.org/es000012.html
+
+Thanks to [OSHPark](https://oshpark.com/shared_projects/pCsPoHNi) for sponsoring the boards.
