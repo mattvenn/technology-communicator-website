@@ -5,7 +5,7 @@
     <div class="row">
       <article class="col-lg-8 col-md-10 mx-auto" data-file="{{.Permalink}}" data-target="article">
         <div class="text-center">
-          {{ if not ( or ( eq .Type "projects" ) ( eq .Type "stems" ) ) }}
+          {{ if not ( or ( eq .Type "projects" ) ( eq .Type "stem" ) ) }}
             {{ with .Params.Image }} <img src="{{ . | absURL }}" alt="" class="img-fluid mb-4"> {{ end }}
           {{ end }}
           <ul class="list-inline mt-1 mb-3">

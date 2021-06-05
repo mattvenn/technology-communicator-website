@@ -157,13 +157,13 @@
       <div class="col-12 mb-5">
         <h2>{{ $data.homepage.stem.title | markdownify }}</h2>
       </div>
-      {{ range first 2 (where .Site.RegularPages "Section" "==" "stems" )}}
+      {{ range first 2 (where .Site.RegularPages "Section" "==" "stem" )}}
       <div class="col-sm-6 mb-4">
         {{ .Render "stem" }}
       </div>
       {{ end }}
       <div class="col-12 text-center mt-2 mb-3">
-        <a href="{{ `stems` | absLangURL }}" class="btn btn-primary btn-style">{{ i18n "all_stems"}}</a>
+        <a href="{{ `stem` | absLangURL }}" class="btn btn-primary btn-style">{{ i18n "all_stems"}}</a>
       </div>
     </div>
   </div>
