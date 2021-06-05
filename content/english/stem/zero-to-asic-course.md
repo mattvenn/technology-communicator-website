@@ -7,6 +7,13 @@ featured_image: /matt_photo.jpg
 image: /matt_photo.jpg
 ---
 
+Edit this so that it's 
+
+* less tech and more about the course and development. 
+* flipped classroom ideas.
+* feedback vid
+
+
 Almost exactly a year ago in March 2020 I started getting interested in Open Source ASIC tooling. I don't remember exactly what sparked my interest, but I remember this talk by Tim Edwards at WOSH: [Bootstrapping a real working design flow](https://www.youtube.com/watch?v=ztcAbszOBs8) and sometime after seeing [Adam Zeloof posting a picture of an ASIC implementation of pong](https://twitter.com/azzeloof/status/1180877525372882944).
 
 I began by investigating [QFlow](http://opencircuitdesign.com/qflow/). The [standard cells](https://www.zerotoasiccourse.com/terminology/standardcell) used by QFlow were from Oklahoma State University (OSU).
