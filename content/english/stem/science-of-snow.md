@@ -10,9 +10,9 @@ image: snow2.png
 
 Science of Snow is an interactive exhibit that starts by illustrating how snowflakes form and ends with a unique snowflake postcard to take away.
 
-By controlling environmental conditions, participants grow a unique snowflake; its shape is a visual history of the journey from cloud to ground.
-
 ![controls](/snow_installation.jpg)
+
+By controlling environmental conditions, participants grow a unique snowflake; its shape is a visual history of the journey from cloud to ground.
 
 ![school](/snow_school.jpg)
 
@@ -20,7 +20,7 @@ By controlling environmental conditions, participants grow a unique snowflake; i
 
 I researched, designed and built the software and hardware for the exhibit. I
 learnt a lot about the science of snow, and enjoyed working through a paper
-on modelling snowflake formation by Janko Gravner, David Griffeath and Clifford A. Reiter. 
+on modelling snowflake formation by [Janko Gravner, David Griffeath and Clifford A. Reiter.](https://www.researchgate.net/publication/1900459_Modeling_snow_crystal_growth_III_three-dimensional_snowfakes) 
 
 ![snow flakes](/snow_flakes.png)
 
