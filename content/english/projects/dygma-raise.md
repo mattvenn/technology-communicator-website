@@ -25,3 +25,9 @@ While all of these had their specific challeges I want to focus on the long jour
 
 {{< youtube NMgdao7dqxA >}}
 
+gergely
+keyboardio
+pawson
+other uk dude
+ott
+
