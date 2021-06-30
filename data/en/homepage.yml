@@ -8,6 +8,7 @@ banner:
     path : "/semicolons-bg.jpg"
     width: 1600
     height: 900
+    darken: 5
   # social icons comes from `config.toml` file.
 
 
@@ -112,6 +113,10 @@ stem:
     path: "/stem-background.jpg"
     width: 4256
     height: 2832
+  background768: 
+    path: "/stem-background768.jpg"
+  background1024: 
+    path: "/stem-background1024.jpg"
 
 
 ########################### Blog ##############################

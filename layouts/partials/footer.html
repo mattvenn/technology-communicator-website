@@ -24,7 +24,7 @@
   {{ end }}
 
   {{ "<!-- Parallax Scroll Script -->" | safeHTML }}
-  {{ $script := resources.Get "js/jquery.parallax-scroll.min.js" | minify }}
+  {{ $script := resources.Get "js/backpax.js" }}
   <script src="{{ $script.Permalink }}"></script>
 
 

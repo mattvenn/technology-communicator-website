@@ -4,7 +4,7 @@
 
 <!-- banner -->
 {{ if $data.homepage.banner.enable }}
-<section class="section pb-0 parallax-header filter-bg__darken-{{ $data.homepage.contact.background.darken }}" id="home" 
+<section class="section pb-0 static-parallax filter-bg__darken-{{ $data.homepage.contact.background.darken }}" id="home" 
   style="background-image: url({{ $data.homepage.banner.background.path | absURL }})" 
   data-width="{{ $data.homepage.banner.background.width }}" 
   data-height="{{ $data.homepage.banner.background.height }}">
@@ -147,11 +147,14 @@
 {{ end }}
 <!-- /talks -->
 
+
 {{ if $data.homepage.stem.enable }} 
-<section id="stem"  class="section pb-0 parallax filter-bg__darken-{{ $data.homepage.contact.background.darken }}"
-  style="background-image: url({{ $data.homepage.stem.background.path | absURL }})"
-  data-width="{{ $data.homepage.stem.background.width }}" 
-  data-height="{{ $data.homepage.stem.background.height }}">
+<section id="stem"  class="js-parallax parallax section pb-0 filter-bg__darken-{{ $data.homepage.contact.background.darken }}"
+  data-img="{{ $data.homepage.stem.background.path | absURL }}"
+  data-img-768="{{ $data.homepage.stem.background768.path | absURL }}"
+  data-img-1024="{{ $data.homepage.stem.background1024.path | absURL }}" >
+<!-- style="background-image:url({{ $data.homepage.stem.background.path | absURL }})"> -->
+
   <div class="container">
     <div class="row">
       <div class="col-12 mb-5">
@@ -216,7 +219,7 @@
 
 <!-- contact -->
 {{ if or $data.homepage.contact_form.enable $data.homepage.contact_info.enable}}
-<section class="section parallax-footer filter-bg__darken-{{ $data.homepage.contact.background.darken }}" id="contact" 
+<section class="section static-parallax filter-bg__darken-{{ $data.homepage.contact.background.darken }}" id="contact" 
   data-width="{{ $data.homepage.contact.background.width }}" 
   data-height="{{ $data.homepage.contact.background.height }}"
   style="background-image: url({{ $data.homepage.contact.background.path | absURL }})">
