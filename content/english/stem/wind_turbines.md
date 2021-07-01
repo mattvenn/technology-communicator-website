@@ -5,6 +5,7 @@ date: 2013-01-01
 categories: [STEM Workshop]
 tags: [wind, STEM, competition]
 featured_image: wind_workshop.jpg
+image_pos: "0px -800px"
 image: wind_workshop.jpg
 ---
 

@@ -51,6 +51,6 @@ The course has been going really well, and we are just about to do a group tapeo
 
 Feedback has been excellent:
 
-{{< youtube yLdxzL7syzU >}}
+{{< youtube fjpFWogQl8Y >}}
 
 I hope to continue running this course, learning more about chip design and meeting great people far into the future!

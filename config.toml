@@ -89,7 +89,7 @@ preloader = "" # use jpg, png, svg or gif format.
   
 # Banner
 [params.banner]
-defaultBannerHeight = "200"
+defaultBannerHeight = "400"
 
 ############################# social site ########################
 

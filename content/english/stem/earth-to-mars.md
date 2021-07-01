@@ -5,6 +5,7 @@ description: An exceptional learning experience - developed in collaboration wit
 categories: [STEM Workshop]
 tags: [robotics, STEM]
 featured_image: etm.jpg
+image_pos: "0px -800px"
 image: etm.jpg
 ---
 
@@ -39,8 +40,8 @@ had contributed, used the website's API to download the samples, categorise them
 * Learn about the European Space Agency’s Aurora Mission and ExoMars rover programme
 * Consider what the signs of extraterrestrial life might be and how to look for them
 * In small teams (max 3) use Python computing language to programme a newly developed robot rover
-* Programme a robot to perform tasks on the Martian landscape, including manoeuvring; taking photos; avoiding obstacles
-* Programme robot to take reading of temperature, CH4, humidity and location and upload this information to a class map
+* Program a robot to perform tasks on the Martian landscape, including manoeuvring; taking photos; avoiding obstacles
+* Program robot to take reading of temperature, CH4, humidity and location and upload this information to a class map
 * Work collaboratively  - sharing learning to jointly map the whole terrain and interpret data
 * Recognise the many and varied roles that contribute to a successful mission of this sort
 * Reflect on the opportunities that may be open to them in this and related STEM sectors

@@ -6,4 +6,5 @@ draft: false
 description: "This is meta description"
 featured_image: megadrawbz_gondola.jpg
 banner_image_darken: 6
+image_pos: "0px -600px"
 ---

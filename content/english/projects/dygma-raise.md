@@ -4,12 +4,13 @@ date: 2017-01-01
 description: An Ergonomic split keyboard
 categories: [Build]
 featured_image: dygma-raise.png
+image_pos: "0px -400px"
 image: dygma-raise.png
 ---
 
 In 2017 I joined [Dygma](https://www.dygma.com) as CTO. Together with Manel and Luis we prototyped and developed a split, ergonomic keyboard that was crowdfunded in early 2018.
 
-While I had done plenty of PCB design and prototyping before, there is a big difference between building a few prototypes and building something to sell in quantity. 
+While I had done plenty of PCB design and prototyping before, there is a big difference between building a few prototypes and building something to sell in quantity (or that could pass an EMC test). 
 
 The prototype we built to use in the kickstarter promo was fairly easy to make, but getting ready to build 5000 units was a totally different story.
 

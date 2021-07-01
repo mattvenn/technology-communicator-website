@@ -8,7 +8,7 @@ image: hydrogenchallenge.jpg
 description:  This workshop uses hydrogen to fuel a Lego car which participants will design and build. The cars that each team builds will have a race of efficiency – the car which travels the furthest on a fixed amount of fuel will win!
 ---
 
-Participants will be encouraged to build their models as quickly as possible, then race their cars a number of times in a process of iterative design.  Each time, they can go back and make changes to their car in order to try and improve their distance.  At the end of the session, each team keeps their highest score.
+Participants are encouraged to build their models as quickly as possible, then race their cars a number of times in a process of iterative design.  Each time, they can go back and make changes to their car in order to try and improve their distance.  At the end of the session, each team keeps their highest score. We ran a competition to find the longest distances across a number of schools across London.
 
 {{< youtube n1b1JE4sTds >}}
 
