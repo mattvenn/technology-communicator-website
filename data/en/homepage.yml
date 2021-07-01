@@ -94,6 +94,10 @@ stem:
     path: "/hydrogenchallenge.jpg"
     width: 4256
     height: 2832
+  background768: 
+    path: "/stem-background768.jpg"
+  background1024: 
+    path: "/stem-background1024.jpg"
 
 
 ########################### Blog ##############################

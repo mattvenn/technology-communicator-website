@@ -13,6 +13,7 @@ disableLanguages = [] # desable language from here
 [markup.goldmark.renderer]
 unsafe = true
 
+
 ############################# Plugins ##############################
 
 # CSS Plugins
@@ -86,6 +87,10 @@ preloader = "" # use jpg, png, svg or gif format.
 #label = "contact"
 #link = "contact"
   
+# Banner
+[params.banner]
+defaultBannerHeight = "200"
+
 ############################# social site ########################
 
 [[params.social]]

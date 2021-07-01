@@ -147,11 +147,14 @@
 {{ end }}
 <!-- /talks -->
 
+
 {{ if $data.homepage.stem.enable }} 
-<section id="stem"  class="section pb-0 parallax filter-bg__darken-{{ $data.homepage.contact.background.darken }}"
-  style="background-image: url({{ $data.homepage.stem.background.path | absURL }})"
-  data-width="{{ $data.homepage.stem.background.width }}" 
-  data-height="{{ $data.homepage.stem.background.height }}">
+<section id="stem"  class="js-parallax parallax section pb-0 filter-bg__darken-{{ $data.homepage.contact.background.darken }}"
+  data-img="{{ $data.homepage.stem.background.path | absURL }}"
+  data-img-768="{{ $data.homepage.stem.background768.path | absURL }}"
+  data-img-1024="{{ $data.homepage.stem.background1024.path | absURL }}" >
+<!-- style="background-image:url({{ $data.homepage.stem.background.path | absURL }})"> -->
+
   <div class="container">
     <div class="row">
       <div class="col-12 mb-5">

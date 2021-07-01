@@ -1,10 +1,10 @@
 {{ if or ( eq .Type "projects" ) ( eq .Type "stem" ) }}
-
+    {{ $defaultBannerHeight := .Site.Params.banner.defaultbannerheight }}
     <section class="section pb-0 static-parallax filter-bg__darken-{{ .Params.banner_image_darken }}" id="home" 
     {{ if .Params.banner_image }}
-        style="background-image: url({{ .Params.banner_image | absURL }})" 
+        style='background-image: url({{ .Params.banner_image | absURL }});min-height: {{ $defaultBannerHeight | default 500 }}px;background-position: {{ .Params.image_pos | default "center" }}' 
     {{ else }}
-        style="background-image: url({{ .Params.featured_image | absURL }})" 
+        style='background-image: url({{ .Params.featured_image | absURL }});min-height: {{ $defaultBannerHeight | default 500 }}px;background-position: {{ .Params.image_pos | default "center" }}'
     {{ end }}
     >
 
@@ -27,4 +27,8 @@
     </div>
     </section>
 
+<<<<<<< HEAD
 {{ end }}
+=======
+{{ end }}
+>>>>>>> pr7

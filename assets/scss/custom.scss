@@ -200,3 +200,47 @@
     padding-top: 80px;
     padding-bottom: 60px
 }
+
+
+/** CUSTOM HEIGHT OF SECTIONS **/
+section.static-parallax{
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/** BULLETS FIX **/
+.content ul li::before {
+    display: none;
+}
+
+.content ul li::marker {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    color: #14AF4A;
+    left: 3px;
+    top: 8px;
+}
+
+.content ul li{
+    padding-left: 0px;
+}
+
+.content ul{
+    padding-left: 20px;
+}
+
+.js-parallax.parallax{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.js-parallax .container{
+    z-index: 100;
+    position: relative;
+}
