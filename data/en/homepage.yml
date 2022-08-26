@@ -102,7 +102,7 @@ contact:
 
 # contact foem
 contact_form:
-  enable : true
+  enable : false
   title : "Contact Me"
   contact_form_action : "https://formspree.io/f/xleawbkd" #contact form works with https://formspree.io
   captcha: true
